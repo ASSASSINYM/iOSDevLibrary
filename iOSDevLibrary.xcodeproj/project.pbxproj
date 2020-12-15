@@ -16,6 +16,16 @@
 		6565E5B0258897C200B73C6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E5AF258897C200B73C6E /* main.m */; };
 		6565E5BA258897C200B73C6E /* iOSDevLibraryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E5B9258897C200B73C6E /* iOSDevLibraryTests.m */; };
 		6565E5C5258897C300B73C6E /* iOSDevLibraryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E5C4258897C300B73C6E /* iOSDevLibraryUITests.m */; };
+		6565E5D92588981000B73C6E /* UIView+HitArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E5D72588981000B73C6E /* UIView+HitArea.m */; };
+		6565E5DF2588981700B73C6E /* UIView+MTGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E5DE2588981700B73C6E /* UIView+MTGradient.m */; };
+		6565E5E52588981E00B73C6E /* MTAttributeTapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E5E42588981E00B73C6E /* MTAttributeTapLabel.m */; };
+		6565E5EB2588982300B73C6E /* MTCheckBoxBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E5E92588982300B73C6E /* MTCheckBoxBtn.m */; };
+		6565E5F12588982A00B73C6E /* UIButton+MTEnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E5EF2588982A00B73C6E /* UIButton+MTEnlargeTouchArea.m */; };
+		6565E5FA2588988F00B73C6E /* UIColor+MTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E5F92588988F00B73C6E /* UIColor+MTColor.m */; };
+		6565E60025889BE300B73C6E /* UITableView+CellAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E5FF25889BE300B73C6E /* UITableView+CellAnimation.m */; };
+		6565E60625889D4D00B73C6E /* MTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E60525889D4D00B73C6E /* MTTableViewCell.m */; };
+		6565E60B25889DEF00B73C6E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6565E60A25889DEF00B73C6E /* 1.jpg */; };
+		6565E6112588A30200B73C6E /* CheckBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E6102588A30200B73C6E /* CheckBoxViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +64,25 @@
 		6565E5C0258897C300B73C6E /* iOSDevLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDevLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6565E5C4258897C300B73C6E /* iOSDevLibraryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSDevLibraryUITests.m; sourceTree = "<group>"; };
 		6565E5C6258897C300B73C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6565E5D72588981000B73C6E /* UIView+HitArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HitArea.m"; sourceTree = "<group>"; };
+		6565E5D82588981000B73C6E /* UIView+HitArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HitArea.h"; sourceTree = "<group>"; };
+		6565E5DD2588981700B73C6E /* UIView+MTGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MTGradient.h"; sourceTree = "<group>"; };
+		6565E5DE2588981700B73C6E /* UIView+MTGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MTGradient.m"; sourceTree = "<group>"; };
+		6565E5E32588981E00B73C6E /* MTAttributeTapLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAttributeTapLabel.h; sourceTree = "<group>"; };
+		6565E5E42588981E00B73C6E /* MTAttributeTapLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAttributeTapLabel.m; sourceTree = "<group>"; };
+		6565E5E92588982300B73C6E /* MTCheckBoxBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTCheckBoxBtn.m; sourceTree = "<group>"; };
+		6565E5EA2588982300B73C6E /* MTCheckBoxBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTCheckBoxBtn.h; sourceTree = "<group>"; };
+		6565E5EF2588982A00B73C6E /* UIButton+MTEnlargeTouchArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MTEnlargeTouchArea.m"; sourceTree = "<group>"; };
+		6565E5F02588982A00B73C6E /* UIButton+MTEnlargeTouchArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MTEnlargeTouchArea.h"; sourceTree = "<group>"; };
+		6565E5F82588988F00B73C6E /* UIColor+MTColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+MTColor.h"; sourceTree = "<group>"; };
+		6565E5F92588988F00B73C6E /* UIColor+MTColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MTColor.m"; sourceTree = "<group>"; };
+		6565E5FE25889BE300B73C6E /* UITableView+CellAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+CellAnimation.h"; sourceTree = "<group>"; };
+		6565E5FF25889BE300B73C6E /* UITableView+CellAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+CellAnimation.m"; sourceTree = "<group>"; };
+		6565E60425889D4D00B73C6E /* MTTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTTableViewCell.h; sourceTree = "<group>"; };
+		6565E60525889D4D00B73C6E /* MTTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTTableViewCell.m; sourceTree = "<group>"; };
+		6565E60A25889DEF00B73C6E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		6565E60F2588A30200B73C6E /* CheckBoxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckBoxViewController.h; sourceTree = "<group>"; };
+		6565E6102588A30200B73C6E /* CheckBoxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckBoxViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,17 +133,24 @@
 		6565E59C258897BE00B73C6E /* iOSDevLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				6565E5D62588980100B73C6E /* UsefulWidget */,
+				6565E5D5258897D700B73C6E /* Categories */,
 				6565E59D258897BF00B73C6E /* AppDelegate.h */,
 				6565E59E258897BF00B73C6E /* AppDelegate.m */,
 				6565E5A0258897BF00B73C6E /* SceneDelegate.h */,
 				6565E5A1258897BF00B73C6E /* SceneDelegate.m */,
 				6565E5A3258897BF00B73C6E /* ViewController.h */,
 				6565E5A4258897BF00B73C6E /* ViewController.m */,
+				6565E60A25889DEF00B73C6E /* 1.jpg */,
 				6565E5A6258897BF00B73C6E /* Main.storyboard */,
 				6565E5A9258897C200B73C6E /* Assets.xcassets */,
 				6565E5AB258897C200B73C6E /* LaunchScreen.storyboard */,
 				6565E5AE258897C200B73C6E /* Info.plist */,
 				6565E5AF258897C200B73C6E /* main.m */,
+				6565E60425889D4D00B73C6E /* MTTableViewCell.h */,
+				6565E60525889D4D00B73C6E /* MTTableViewCell.m */,
+				6565E60F2588A30200B73C6E /* CheckBoxViewController.h */,
+				6565E6102588A30200B73C6E /* CheckBoxViewController.m */,
 			);
 			path = iOSDevLibrary;
 			sourceTree = "<group>";
@@ -135,6 +171,34 @@
 				6565E5C6258897C300B73C6E /* Info.plist */,
 			);
 			path = iOSDevLibraryUITests;
+			sourceTree = "<group>";
+		};
+		6565E5D5258897D700B73C6E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				6565E5F02588982A00B73C6E /* UIButton+MTEnlargeTouchArea.h */,
+				6565E5EF2588982A00B73C6E /* UIButton+MTEnlargeTouchArea.m */,
+				6565E5DD2588981700B73C6E /* UIView+MTGradient.h */,
+				6565E5DE2588981700B73C6E /* UIView+MTGradient.m */,
+				6565E5D82588981000B73C6E /* UIView+HitArea.h */,
+				6565E5D72588981000B73C6E /* UIView+HitArea.m */,
+				6565E5F82588988F00B73C6E /* UIColor+MTColor.h */,
+				6565E5F92588988F00B73C6E /* UIColor+MTColor.m */,
+				6565E5FE25889BE300B73C6E /* UITableView+CellAnimation.h */,
+				6565E5FF25889BE300B73C6E /* UITableView+CellAnimation.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		6565E5D62588980100B73C6E /* UsefulWidget */ = {
+			isa = PBXGroup;
+			children = (
+				6565E5EA2588982300B73C6E /* MTCheckBoxBtn.h */,
+				6565E5E92588982300B73C6E /* MTCheckBoxBtn.m */,
+				6565E5E32588981E00B73C6E /* MTAttributeTapLabel.h */,
+				6565E5E42588981E00B73C6E /* MTAttributeTapLabel.m */,
+			);
+			path = UsefulWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6565E5AD258897C200B73C6E /* LaunchScreen.storyboard in Resources */,
+				6565E60B25889DEF00B73C6E /* 1.jpg in Resources */,
 				6565E5AA258897C200B73C6E /* Assets.xcassets in Resources */,
 				6565E5A8258897BF00B73C6E /* Main.storyboard in Resources */,
 			);
@@ -266,9 +331,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6565E5FA2588988F00B73C6E /* UIColor+MTColor.m in Sources */,
+				6565E6112588A30200B73C6E /* CheckBoxViewController.m in Sources */,
+				6565E5D92588981000B73C6E /* UIView+HitArea.m in Sources */,
+				6565E5E52588981E00B73C6E /* MTAttributeTapLabel.m in Sources */,
 				6565E5A5258897BF00B73C6E /* ViewController.m in Sources */,
 				6565E59F258897BF00B73C6E /* AppDelegate.m in Sources */,
+				6565E5F12588982A00B73C6E /* UIButton+MTEnlargeTouchArea.m in Sources */,
+				6565E60025889BE300B73C6E /* UITableView+CellAnimation.m in Sources */,
+				6565E5DF2588981700B73C6E /* UIView+MTGradient.m in Sources */,
+				6565E60625889D4D00B73C6E /* MTTableViewCell.m in Sources */,
 				6565E5B0258897C200B73C6E /* main.m in Sources */,
+				6565E5EB2588982300B73C6E /* MTCheckBoxBtn.m in Sources */,
 				6565E5A2258897BF00B73C6E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
