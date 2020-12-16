@@ -19,6 +19,8 @@
     
     self.view.backgroundColor = self.baseBgColor;
     
+    self.title = @"baseTitle";
+    
 //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeStyle) name:@"changeStyle" object:nil];
 }
 
