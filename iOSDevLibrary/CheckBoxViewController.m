@@ -22,6 +22,8 @@
     checkBox.type = MTSquareType;
     
     [self.view addSubview:checkBox];
+    
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 #pragma mark - exchange style
