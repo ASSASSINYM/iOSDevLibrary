@@ -24,6 +24,12 @@
     [self.view addSubview:checkBox];
     
     self.view.backgroundColor = [UIColor whiteColor];
+
+    int a,b,c;
+    a = 1;
+    b = 1;
+    c = a + b;
+    NSLog(@"%d",c);
 }
 
 #pragma mark - exchange style
