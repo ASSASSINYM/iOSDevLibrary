@@ -22,6 +22,11 @@
     NSLog(@"%s",__func__);
     
     NSLog(@"%@",self);
+    int a,b,c;
+    a = 10;
+    b = 21;
+    c = a + b;
+    NSLog(@"%d",c);
 }
 
 /*
