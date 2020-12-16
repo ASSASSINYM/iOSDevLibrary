@@ -19,6 +19,8 @@
     
     self.view.backgroundColor = self.baseBgColor;
     
+    NSLog(@"这是base viewcontroller");
+    
 //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeStyle) name:@"changeStyle" object:nil];
 }
 
