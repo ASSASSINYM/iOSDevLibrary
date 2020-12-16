@@ -22,6 +22,12 @@
     checkBox.type = MTSquareType;
     
     [self.view addSubview:checkBox];
+    
+    int a,b,c;
+    a = 1;
+    b = 1;
+    c = a + b;
+    NSLog(@"%d",c);
 }
 
 #pragma mark - exchange style
