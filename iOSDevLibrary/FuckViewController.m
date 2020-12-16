@@ -20,6 +20,12 @@
 
 -(void)fuckit {
     NSLog(@"%s",__func__);
+    
+    int a,b,c;
+    a = 10;
+    b = 21;
+    c = a + b;
+    NSLog(@"%d",c);
 }
 
 /*
