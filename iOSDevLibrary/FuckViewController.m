@@ -18,6 +18,10 @@
     // Do any additional setup after loading the view.
 }
 
+-(void)fuckit {
+    NSLog(@"%s",__func__);
+}
+
 /*
 #pragma mark - Navigation
 
