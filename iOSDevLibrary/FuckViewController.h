@@ -1,8 +1,8 @@
 //
-//  CheckBoxViewController.h
+//  FuckViewController.h
 //  iOSDevLibrary
 //
-//  Created by ASSASSIN on 2020/12/15.
+//  Created by ASSASSIN on 2020/12/16.
 //
 
 #import <UIKit/UIKit.h>
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CheckBoxViewController : BaseViewController
+@interface FuckViewController : BaseViewController
 
 @end
 

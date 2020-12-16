@@ -24,5 +24,20 @@
     [self.view addSubview:checkBox];
 }
 
+#pragma mark - exchange style
+
+-(IBAction)changeStyle:(id)sender {
+    
+    self.baseBgColor = [UIColor yellowColor];
+   // [[NSNotificationCenter defaultCenter] postNotificationName:@"changeStyle" object:nil];
+}
+
+#pragma mark - next step
+
+-(IBAction)nextStep:(id)sender {
+    
+    
+}
+
 
 @end

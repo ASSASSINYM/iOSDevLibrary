@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		651960A22589A03800AB2E77 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651960A12589A03800AB2E77 /* BaseViewController.m */; };
+		651960A82589A08100AB2E77 /* FuckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651960A72589A08100AB2E77 /* FuckViewController.m */; };
 		6565E59F258897BF00B73C6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E59E258897BF00B73C6E /* AppDelegate.m */; };
 		6565E5A2258897BF00B73C6E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E5A1258897BF00B73C6E /* SceneDelegate.m */; };
 		6565E5A5258897BF00B73C6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E5A4258897BF00B73C6E /* ViewController.m */; };
@@ -26,6 +28,7 @@
 		6565E60625889D4D00B73C6E /* MTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E60525889D4D00B73C6E /* MTTableViewCell.m */; };
 		6565E60B25889DEF00B73C6E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6565E60A25889DEF00B73C6E /* 1.jpg */; };
 		6565E6112588A30200B73C6E /* CheckBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E6102588A30200B73C6E /* CheckBoxViewController.m */; };
+		6565E6172588A4A200B73C6E /* MTLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E6162588A4A200B73C6E /* MTLoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		651960A02589A03800AB2E77 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		651960A12589A03800AB2E77 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		651960A62589A08100AB2E77 /* FuckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FuckViewController.h; sourceTree = "<group>"; };
+		651960A72589A08100AB2E77 /* FuckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FuckViewController.m; sourceTree = "<group>"; };
 		6565E59A258897BE00B73C6E /* iOSDevLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDevLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6565E59D258897BF00B73C6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6565E59E258897BF00B73C6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -83,6 +90,8 @@
 		6565E60A25889DEF00B73C6E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		6565E60F2588A30200B73C6E /* CheckBoxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckBoxViewController.h; sourceTree = "<group>"; };
 		6565E6102588A30200B73C6E /* CheckBoxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckBoxViewController.m; sourceTree = "<group>"; };
+		6565E6152588A4A200B73C6E /* MTLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTLoadingView.h; sourceTree = "<group>"; };
+		6565E6162588A4A200B73C6E /* MTLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTLoadingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +160,10 @@
 				6565E60525889D4D00B73C6E /* MTTableViewCell.m */,
 				6565E60F2588A30200B73C6E /* CheckBoxViewController.h */,
 				6565E6102588A30200B73C6E /* CheckBoxViewController.m */,
+				651960A02589A03800AB2E77 /* BaseViewController.h */,
+				651960A12589A03800AB2E77 /* BaseViewController.m */,
+				651960A62589A08100AB2E77 /* FuckViewController.h */,
+				651960A72589A08100AB2E77 /* FuckViewController.m */,
 			);
 			path = iOSDevLibrary;
 			sourceTree = "<group>";
@@ -197,6 +210,8 @@
 				6565E5E92588982300B73C6E /* MTCheckBoxBtn.m */,
 				6565E5E32588981E00B73C6E /* MTAttributeTapLabel.h */,
 				6565E5E42588981E00B73C6E /* MTAttributeTapLabel.m */,
+				6565E6152588A4A200B73C6E /* MTLoadingView.h */,
+				6565E6162588A4A200B73C6E /* MTLoadingView.m */,
 			);
 			path = UsefulWidget;
 			sourceTree = "<group>";
@@ -332,17 +347,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				6565E5FA2588988F00B73C6E /* UIColor+MTColor.m in Sources */,
+				651960A22589A03800AB2E77 /* BaseViewController.m in Sources */,
 				6565E6112588A30200B73C6E /* CheckBoxViewController.m in Sources */,
 				6565E5D92588981000B73C6E /* UIView+HitArea.m in Sources */,
 				6565E5E52588981E00B73C6E /* MTAttributeTapLabel.m in Sources */,
 				6565E5A5258897BF00B73C6E /* ViewController.m in Sources */,
 				6565E59F258897BF00B73C6E /* AppDelegate.m in Sources */,
+				651960A82589A08100AB2E77 /* FuckViewController.m in Sources */,
 				6565E5F12588982A00B73C6E /* UIButton+MTEnlargeTouchArea.m in Sources */,
 				6565E60025889BE300B73C6E /* UITableView+CellAnimation.m in Sources */,
 				6565E5DF2588981700B73C6E /* UIView+MTGradient.m in Sources */,
 				6565E60625889D4D00B73C6E /* MTTableViewCell.m in Sources */,
 				6565E5B0258897C200B73C6E /* main.m in Sources */,
 				6565E5EB2588982300B73C6E /* MTCheckBoxBtn.m in Sources */,
+				6565E6172588A4A200B73C6E /* MTLoadingView.m in Sources */,
 				6565E5A2258897BF00B73C6E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
