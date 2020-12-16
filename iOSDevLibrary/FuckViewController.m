@@ -20,6 +20,8 @@
 
 -(void)fuckit {
     NSLog(@"%s",__func__);
+    
+    NSLog(@"%@",self);
 }
 
 /*
