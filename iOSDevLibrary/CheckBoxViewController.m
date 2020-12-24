@@ -7,6 +7,7 @@
 
 #import "CheckBoxViewController.h"
 #import "MTCheckBoxBtn.h"
+#import "MTNotePopView.h"
 
 @interface CheckBoxViewController ()
 
@@ -30,6 +31,10 @@
     b = 1;
     c = a + b;
     NSLog(@"%d",c);
+    
+    
+    
+    
 }
 
 #pragma mark - exchange style

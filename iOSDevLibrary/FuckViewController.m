@@ -6,6 +6,7 @@
 //
 
 #import "FuckViewController.h"
+#import "MTNotePopView.h"
 
 @interface FuckViewController ()
 
@@ -16,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    MTNotePopView *pop = [MTNotePopView popViewWithTitle:@"提示" message:@"哈哈哈哈"];
+    [pop show];
 }
 
 -(void)fuckit {

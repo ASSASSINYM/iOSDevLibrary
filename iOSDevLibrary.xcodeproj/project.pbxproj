@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6514642C259436BE00BFDA9A /* MTPopAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6514642B259436BE00BFDA9A /* MTPopAction.m */; };
+		6514643125943C4A00BFDA9A /* MTNotePopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6514643025943C4A00BFDA9A /* MTNotePopView.xib */; };
+		6514643A2594413000BFDA9A /* UIView+CurrentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 651464392594413000BFDA9A /* UIView+CurrentVC.m */; };
 		651960A22589A03800AB2E77 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651960A12589A03800AB2E77 /* BaseViewController.m */; };
 		651960A82589A08100AB2E77 /* FuckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 651960A72589A08100AB2E77 /* FuckViewController.m */; };
 		6565E59F258897BF00B73C6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E59E258897BF00B73C6E /* AppDelegate.m */; };
@@ -29,6 +32,8 @@
 		6565E60B25889DEF00B73C6E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6565E60A25889DEF00B73C6E /* 1.jpg */; };
 		6565E6112588A30200B73C6E /* CheckBoxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E6102588A30200B73C6E /* CheckBoxViewController.m */; };
 		6565E6172588A4A200B73C6E /* MTLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E6162588A4A200B73C6E /* MTLoadingView.m */; };
+		65A3FEF12591EA1100CD877B /* MTBasePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FEF02591EA1100CD877B /* MTBasePopView.m */; };
+		65A3FEFA2591EA3400CD877B /* MTNotePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FEF92591EA3400CD877B /* MTNotePopView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6514642A259436BE00BFDA9A /* MTPopAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPopAction.h; sourceTree = "<group>"; };
+		6514642B259436BE00BFDA9A /* MTPopAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPopAction.m; sourceTree = "<group>"; };
+		6514643025943C4A00BFDA9A /* MTNotePopView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTNotePopView.xib; sourceTree = "<group>"; };
+		651464382594413000BFDA9A /* UIView+CurrentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CurrentVC.h"; sourceTree = "<group>"; };
+		651464392594413000BFDA9A /* UIView+CurrentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CurrentVC.m"; sourceTree = "<group>"; };
 		651960A02589A03800AB2E77 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		651960A12589A03800AB2E77 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		651960A62589A08100AB2E77 /* FuckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FuckViewController.h; sourceTree = "<group>"; };
@@ -92,6 +102,10 @@
 		6565E6102588A30200B73C6E /* CheckBoxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckBoxViewController.m; sourceTree = "<group>"; };
 		6565E6152588A4A200B73C6E /* MTLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTLoadingView.h; sourceTree = "<group>"; };
 		6565E6162588A4A200B73C6E /* MTLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTLoadingView.m; sourceTree = "<group>"; };
+		65A3FEEF2591EA1100CD877B /* MTBasePopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTBasePopView.h; sourceTree = "<group>"; };
+		65A3FEF02591EA1100CD877B /* MTBasePopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTBasePopView.m; sourceTree = "<group>"; };
+		65A3FEF82591EA3400CD877B /* MTNotePopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTNotePopView.h; sourceTree = "<group>"; };
+		65A3FEF92591EA3400CD877B /* MTNotePopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTNotePopView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +156,10 @@
 		6565E59C258897BE00B73C6E /* iOSDevLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				65A3FF002591ED0100CD877B /* WaterFlow */,
+				65A3FEFF2591EAE700CD877B /* DataPersistence */,
+				65A3FEFE2591EA9C00CD877B /* EmptyView */,
+				65A3FEE52591E9D300CD877B /* PopView */,
 				6565E5D62588980100B73C6E /* UsefulWidget */,
 				6565E5D5258897D700B73C6E /* Categories */,
 				6565E59D258897BF00B73C6E /* AppDelegate.h */,
@@ -214,6 +232,43 @@
 				6565E6162588A4A200B73C6E /* MTLoadingView.m */,
 			);
 			path = UsefulWidget;
+			sourceTree = "<group>";
+		};
+		65A3FEE52591E9D300CD877B /* PopView */ = {
+			isa = PBXGroup;
+			children = (
+				651464382594413000BFDA9A /* UIView+CurrentVC.h */,
+				651464392594413000BFDA9A /* UIView+CurrentVC.m */,
+				65A3FEEF2591EA1100CD877B /* MTBasePopView.h */,
+				65A3FEF02591EA1100CD877B /* MTBasePopView.m */,
+				65A3FEF82591EA3400CD877B /* MTNotePopView.h */,
+				65A3FEF92591EA3400CD877B /* MTNotePopView.m */,
+				6514643025943C4A00BFDA9A /* MTNotePopView.xib */,
+				6514642A259436BE00BFDA9A /* MTPopAction.h */,
+				6514642B259436BE00BFDA9A /* MTPopAction.m */,
+			);
+			path = PopView;
+			sourceTree = "<group>";
+		};
+		65A3FEFE2591EA9C00CD877B /* EmptyView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EmptyView;
+			sourceTree = "<group>";
+		};
+		65A3FEFF2591EAE700CD877B /* DataPersistence */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataPersistence;
+			sourceTree = "<group>";
+		};
+		65A3FF002591ED0100CD877B /* WaterFlow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WaterFlow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6565E5AD258897C200B73C6E /* LaunchScreen.storyboard in Resources */,
+				6514643125943C4A00BFDA9A /* MTNotePopView.xib in Resources */,
 				6565E60B25889DEF00B73C6E /* 1.jpg in Resources */,
 				6565E5AA258897C200B73C6E /* Assets.xcassets in Resources */,
 				6565E5A8258897BF00B73C6E /* Main.storyboard in Resources */,
@@ -347,6 +403,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6565E5FA2588988F00B73C6E /* UIColor+MTColor.m in Sources */,
+				65A3FEFA2591EA3400CD877B /* MTNotePopView.m in Sources */,
 				651960A22589A03800AB2E77 /* BaseViewController.m in Sources */,
 				6565E6112588A30200B73C6E /* CheckBoxViewController.m in Sources */,
 				6565E5D92588981000B73C6E /* UIView+HitArea.m in Sources */,
@@ -356,11 +413,14 @@
 				651960A82589A08100AB2E77 /* FuckViewController.m in Sources */,
 				6565E5F12588982A00B73C6E /* UIButton+MTEnlargeTouchArea.m in Sources */,
 				6565E60025889BE300B73C6E /* UITableView+CellAnimation.m in Sources */,
+				6514642C259436BE00BFDA9A /* MTPopAction.m in Sources */,
 				6565E5DF2588981700B73C6E /* UIView+MTGradient.m in Sources */,
 				6565E60625889D4D00B73C6E /* MTTableViewCell.m in Sources */,
 				6565E5B0258897C200B73C6E /* main.m in Sources */,
 				6565E5EB2588982300B73C6E /* MTCheckBoxBtn.m in Sources */,
 				6565E6172588A4A200B73C6E /* MTLoadingView.m in Sources */,
+				6514643A2594413000BFDA9A /* UIView+CurrentVC.m in Sources */,
+				65A3FEF12591EA1100CD877B /* MTBasePopView.m in Sources */,
 				6565E5A2258897BF00B73C6E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
