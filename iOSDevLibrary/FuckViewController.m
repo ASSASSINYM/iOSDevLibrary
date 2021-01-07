@@ -6,7 +6,8 @@
 //
 
 #import "FuckViewController.h"
-#import "MTNotePopView.h"
+#import "NSArray+ErrorHandle.h"
+#import "NSMutableArray+ErrorHandle.h"
 
 @interface FuckViewController ()
 
@@ -19,9 +20,19 @@
     // Do any additional setup after loading the view.
     
     self.view.backgroundColor = [UIColor whiteColor];
+//
+//    MTNotePopView *pop = [MTNotePopView popViewWithTitle:@"提示" message:@"哈哈哈哈"];
+//    [pop show];
+//
+//
+    [[UIDevice currentDevice] identifierForVendor];
     
-    MTNotePopView *pop = [MTNotePopView popViewWithTitle:@"提示" message:@"哈哈哈哈"];
-    [pop show];
+    NSLog(@"%@",[[UIDevice currentDevice] identifierForVendor]);
+    
+    NSMutableArray *fuck = [NSMutableArray array];
+    [fuck objectAtIndex:1];
+    
+    
 }
 
 -(void)fuckit {
