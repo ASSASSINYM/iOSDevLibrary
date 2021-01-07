@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="224" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bcR-DN-Yad">
+                    <rect key="frame" x="8" y="18" width="8" height="8"/>
+                    <color key="backgroundColor" systemColor="systemRedColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="8" id="8ic-RR-GAf"/>
+                        <constraint firstAttribute="width" constant="8" id="g43-Jq-JKI"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="活期存款" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LEG-0P-epx">
+                    <rect key="frame" x="24" y="13.5" width="50" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="OtV-gH-EuN"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.40392156862745099" green="0.40392156862745099" blue="0.4823529411764706" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" ¥339,934.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SHI-dV-Jiw">
+                    <rect key="frame" x="110" y="13.5" width="89" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="Fbm-Us-4jU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="cLt-De-OMA"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="SHI-dV-Jiw" firstAttribute="centerY" secondItem="LEG-0P-epx" secondAttribute="centerY" id="HXy-HY-NUK"/>
+                <constraint firstItem="SHI-dV-Jiw" firstAttribute="leading" secondItem="LEG-0P-epx" secondAttribute="trailing" constant="36" id="KOa-pB-p1f"/>
+                <constraint firstItem="bcR-DN-Yad" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="LgS-1x-lCK"/>
+                <constraint firstItem="LEG-0P-epx" firstAttribute="leading" secondItem="bcR-DN-Yad" secondAttribute="trailing" constant="8" symbolic="YES" id="WjZ-DZ-Yel"/>
+                <constraint firstItem="bcR-DN-Yad" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="spE-ch-ml8"/>
+                <constraint firstItem="LEG-0P-epx" firstAttribute="centerY" secondItem="bcR-DN-Yad" secondAttribute="centerY" id="ySh-Hq-7rg"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="214.49275362318843" y="-6.0267857142857144"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

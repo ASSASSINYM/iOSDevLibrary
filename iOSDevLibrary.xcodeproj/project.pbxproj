@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -37,6 +37,12 @@
 		6565E6172588A4A200B73C6E /* MTLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E6162588A4A200B73C6E /* MTLoadingView.m */; };
 		65A3FEF12591EA1100CD877B /* MTBasePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FEF02591EA1100CD877B /* MTBasePopView.m */; };
 		65A3FEFA2591EA3400CD877B /* MTNotePopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A3FEF92591EA3400CD877B /* MTNotePopView.m */; };
+		65C0DAB925A6F55D00FE6908 /* ScrollviewTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65C0DAB825A6F55D00FE6908 /* ScrollviewTestView.xib */; };
+		65FA0BB925A6E6B700587187 /* MTChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FA0BB825A6E6B700587187 /* MTChartView.m */; };
+		65FA0BC125A6E6D700587187 /* MTChartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65FA0BC025A6E6D700587187 /* MTChartView.xib */; };
+		65FA0BC725A6E6FE00587187 /* MTChartBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FA0BC625A6E6FE00587187 /* MTChartBarView.m */; };
+		65FA0BCD25A6E71300587187 /* MTChartPieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65FA0BCC25A6E71300587187 /* MTChartPieView.m */; };
+		65FA0BD225A6E72A00587187 /* MTChartBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65FA0BD125A6E72A00587187 /* MTChartBarView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +121,15 @@
 		65A3FEF02591EA1100CD877B /* MTBasePopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTBasePopView.m; sourceTree = "<group>"; };
 		65A3FEF82591EA3400CD877B /* MTNotePopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTNotePopView.h; sourceTree = "<group>"; };
 		65A3FEF92591EA3400CD877B /* MTNotePopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTNotePopView.m; sourceTree = "<group>"; };
+		65C0DAB825A6F55D00FE6908 /* ScrollviewTestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollviewTestView.xib; sourceTree = "<group>"; };
+		65FA0BB725A6E6B700587187 /* MTChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTChartView.h; sourceTree = "<group>"; };
+		65FA0BB825A6E6B700587187 /* MTChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTChartView.m; sourceTree = "<group>"; };
+		65FA0BC025A6E6D700587187 /* MTChartView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTChartView.xib; sourceTree = "<group>"; };
+		65FA0BC525A6E6FE00587187 /* MTChartBarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTChartBarView.h; sourceTree = "<group>"; };
+		65FA0BC625A6E6FE00587187 /* MTChartBarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTChartBarView.m; sourceTree = "<group>"; };
+		65FA0BCB25A6E71300587187 /* MTChartPieView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTChartPieView.h; sourceTree = "<group>"; };
+		65FA0BCC25A6E71300587187 /* MTChartPieView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTChartPieView.m; sourceTree = "<group>"; };
+		65FA0BD125A6E72A00587187 /* MTChartBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTChartBarView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +193,8 @@
 		6565E59C258897BE00B73C6E /* iOSDevLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				65C0DAB725A6F54700FE6908 /* XibScrolllview */,
+				65FA0BB625A6E6A200587187 /* 图表Chart */,
 				651ADCE425A6B81100469FBE /* 数组越界 */,
 				65A3FF002591ED0100CD877B /* WaterFlow */,
 				65A3FEFF2591EAE700CD877B /* DataPersistence */,
@@ -294,6 +311,29 @@
 			path = WaterFlow;
 			sourceTree = "<group>";
 		};
+		65C0DAB725A6F54700FE6908 /* XibScrolllview */ = {
+			isa = PBXGroup;
+			children = (
+				65C0DAB825A6F55D00FE6908 /* ScrollviewTestView.xib */,
+			);
+			path = XibScrolllview;
+			sourceTree = "<group>";
+		};
+		65FA0BB625A6E6A200587187 /* 图表Chart */ = {
+			isa = PBXGroup;
+			children = (
+				65FA0BB725A6E6B700587187 /* MTChartView.h */,
+				65FA0BB825A6E6B700587187 /* MTChartView.m */,
+				65FA0BC025A6E6D700587187 /* MTChartView.xib */,
+				65FA0BC525A6E6FE00587187 /* MTChartBarView.h */,
+				65FA0BC625A6E6FE00587187 /* MTChartBarView.m */,
+				65FA0BD125A6E72A00587187 /* MTChartBarView.xib */,
+				65FA0BCB25A6E71300587187 /* MTChartPieView.h */,
+				65FA0BCC25A6E71300587187 /* MTChartPieView.m */,
+			);
+			path = "图表Chart";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -360,19 +400,22 @@
 				TargetAttributes = {
 					6565E599258897BE00B73C6E = {
 						CreatedOnToolsVersion = 12.1;
+						ProvisioningStyle = Automatic;
 					};
 					6565E5B4258897C200B73C6E = {
 						CreatedOnToolsVersion = 12.1;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 6565E599258897BE00B73C6E;
 					};
 					6565E5BF258897C300B73C6E = {
 						CreatedOnToolsVersion = 12.1;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 6565E599258897BE00B73C6E;
 					};
 				};
 			};
 			buildConfigurationList = 6565E595258897BE00B73C6E /* Build configuration list for PBXProject "iOSDevLibrary" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -396,8 +439,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65FA0BC125A6E6D700587187 /* MTChartView.xib in Resources */,
+				65FA0BD225A6E72A00587187 /* MTChartBarView.xib in Resources */,
 				6565E5AD258897C200B73C6E /* LaunchScreen.storyboard in Resources */,
 				6514643125943C4A00BFDA9A /* MTNotePopView.xib in Resources */,
+				65C0DAB925A6F55D00FE6908 /* ScrollviewTestView.xib in Resources */,
 				6565E60B25889DEF00B73C6E /* 1.jpg in Resources */,
 				6565E5AA258897C200B73C6E /* Assets.xcassets in Resources */,
 				6565E5A8258897BF00B73C6E /* Main.storyboard in Resources */,
@@ -438,6 +484,7 @@
 				6565E5F12588982A00B73C6E /* UIButton+MTEnlargeTouchArea.m in Sources */,
 				651ADCF325A6B8F700469FBE /* NSMutableArray+ErrorHandle.m in Sources */,
 				6565E60025889BE300B73C6E /* UITableView+CellAnimation.m in Sources */,
+				65FA0BC725A6E6FE00587187 /* MTChartBarView.m in Sources */,
 				6514642C259436BE00BFDA9A /* MTPopAction.m in Sources */,
 				6565E5DF2588981700B73C6E /* UIView+MTGradient.m in Sources */,
 				6565E60625889D4D00B73C6E /* MTTableViewCell.m in Sources */,
@@ -447,7 +494,9 @@
 				6565E6172588A4A200B73C6E /* MTLoadingView.m in Sources */,
 				6514643A2594413000BFDA9A /* UIView+CurrentVC.m in Sources */,
 				65A3FEF12591EA1100CD877B /* MTBasePopView.m in Sources */,
+				65FA0BB925A6E6B700587187 /* MTChartView.m in Sources */,
 				6565E5A2258897BF00B73C6E /* SceneDelegate.m in Sources */,
+				65FA0BCD25A6E71300587187 /* MTChartPieView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,7 +602,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -606,7 +655,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -622,10 +671,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2989MFX2P;
 				INFOPLIST_FILE = iOSDevLibrary/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.china.mt.iOSDevLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -640,10 +686,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2989MFX2P;
 				INFOPLIST_FILE = iOSDevLibrary/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.china.mt.iOSDevLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -658,11 +701,7 @@
 				DEVELOPMENT_TEAM = C2989MFX2P;
 				INFOPLIST_FILE = iOSDevLibraryTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.china.mt.iOSDevLibraryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -678,11 +717,7 @@
 				DEVELOPMENT_TEAM = C2989MFX2P;
 				INFOPLIST_FILE = iOSDevLibraryTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.china.mt.iOSDevLibraryTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -696,11 +731,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2989MFX2P;
 				INFOPLIST_FILE = iOSDevLibraryUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.china.mt.iOSDevLibraryUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -714,11 +745,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2989MFX2P;
 				INFOPLIST_FILE = iOSDevLibraryUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.china.mt.iOSDevLibraryUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

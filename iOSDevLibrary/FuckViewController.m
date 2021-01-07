@@ -6,8 +6,8 @@
 //
 
 #import "FuckViewController.h"
-#import "NSArray+ErrorHandle.h"
-#import "NSMutableArray+ErrorHandle.h"
+//#import "NSArray+ErrorHandle.h"
+//#import "NSMutableArray+ErrorHandle.h"
 
 @interface FuckViewController ()
 
@@ -30,7 +30,9 @@
     NSLog(@"%@",[[UIDevice currentDevice] identifierForVendor]);
     
     NSMutableArray *fuck = [NSMutableArray array];
-    [fuck objectAtIndex:1];
+   // [fuck objectAtIndex:1];
+    NSLog(@"%@",fuck[1]);
+    NSLog(@"%@",fuck[2]);
     
     
 }

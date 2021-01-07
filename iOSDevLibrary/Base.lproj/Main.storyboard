@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="n6n-Ao-RPc">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -28,7 +29,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="NO3-ix-N1D" kind="push" id="3TM-8q-gT9"/>
+                                    <segue destination="NO3-ix-N1D" kind="show" id="3TM-8q-gT9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vyf-Hb-9gl">
@@ -47,20 +48,20 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="APO-pT-IKh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="oY8-aD-NeI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="3XS-PZ-lNm"/>
-                            <constraint firstItem="oY8-aD-NeI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="S8y-Ql-zFD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vyf-Hb-9gl" secondAttribute="trailing" constant="58" id="g7g-3r-cGp"/>
-                            <constraint firstItem="Vyf-Hb-9gl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="143" id="lNo-en-JY4"/>
+                            <constraint firstItem="oY8-aD-NeI" firstAttribute="centerX" secondItem="APO-pT-IKh" secondAttribute="centerX" id="S8y-Ql-zFD"/>
+                            <constraint firstItem="APO-pT-IKh" firstAttribute="trailing" secondItem="Vyf-Hb-9gl" secondAttribute="trailing" constant="58" id="g7g-3r-cGp"/>
+                            <constraint firstItem="Vyf-Hb-9gl" firstAttribute="top" secondItem="APO-pT-IKh" secondAttribute="top" constant="143" id="lNo-en-JY4"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="g2B-yz-hsT"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1250.7246376811595" y="95.758928571428569"/>
+            <point key="canvasLocation" x="1250.7246376811597" y="95.758928571428569"/>
         </scene>
         <!--Fuck View Controller-->
         <scene sceneID="nbs-iq-lw8">
@@ -69,7 +70,7 @@
                     <view key="view" contentMode="scaleToFill" id="ZYL-9c-mTn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="h2h-dh-ecl"/>
+                        <viewLayoutGuide key="safeArea" id="hVn-jC-ZI4"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="1g6-uR-1ZY"/>
@@ -85,13 +86,86 @@
                     <view key="view" contentMode="scaleToFill" id="IhN-89-XRg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="NY9-nW-fzb"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nkI-z8-gPi">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2RY-XY-g3j">
+                                        <rect key="frame" x="50" y="70" width="240" height="128"/>
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="T08-CH-xGM"/>
+                                            <constraint firstAttribute="height" constant="128" id="zKb-hS-89J"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fNU-gx-N8E">
+                                        <rect key="frame" x="50" y="238" width="240" height="128"/>
+                                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="128" id="5Ea-YR-FYo"/>
+                                            <constraint firstAttribute="width" constant="240" id="aUq-eO-N7A"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="no1-GD-NmK">
+                                        <rect key="frame" x="50" y="429" width="240" height="128"/>
+                                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="tUX-id-j8f"/>
+                                            <constraint firstAttribute="height" constant="128" id="z6Q-X4-yd2"/>
+                                        </constraints>
+                                    </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQs-IQ-EDb">
+                                        <rect key="frame" x="50" y="606" width="349" height="304.5"/>
+                                        <mutableString key="text">拖入一个UIView到UIScrollView中,作为内容显示视图，Autolayout将使用这个View的宽高来计算UIScrollView的滚动范围，并分别设置它相对于Content Layout guide的约束为0，具体步骤为：左键选中View，右键拖动它到Content Layout guide上，按住shift键，将上下左右都给选中，如果xcode默认了当前的相对数据，在右边将它手动改为0，操作如下图
+
+作者：默默_David
+链接：https://www.jianshu.com/p/3161da83ee42
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</mutableString>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RFa-u8-MvF">
+                                        <rect key="frame" x="50" y="942.5" width="326" height="128"/>
+                                        <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="326" id="8R4-8Z-HsF"/>
+                                            <constraint firstAttribute="height" constant="128" id="f97-pO-sDN"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="no1-GD-NmK" firstAttribute="top" secondItem="fNU-gx-N8E" secondAttribute="bottom" constant="63" id="2zL-ZS-ieT"/>
+                                    <constraint firstItem="gQs-IQ-EDb" firstAttribute="top" secondItem="no1-GD-NmK" secondAttribute="bottom" constant="49" id="54g-lk-M7f"/>
+                                    <constraint firstItem="RFa-u8-MvF" firstAttribute="top" secondItem="gQs-IQ-EDb" secondAttribute="bottom" constant="32" id="8pv-JI-O2c"/>
+                                    <constraint firstItem="2RY-XY-g3j" firstAttribute="top" secondItem="nkI-z8-gPi" secondAttribute="top" constant="70" id="9tg-tz-BXs"/>
+                                    <constraint firstItem="fNU-gx-N8E" firstAttribute="top" secondItem="2RY-XY-g3j" secondAttribute="bottom" constant="40" id="Sc2-oS-z2c"/>
+                                    <constraint firstAttribute="trailing" secondItem="RFa-u8-MvF" secondAttribute="trailing" constant="38" id="Ton-zY-Aja"/>
+                                    <constraint firstItem="RFa-u8-MvF" firstAttribute="leading" secondItem="nkI-z8-gPi" secondAttribute="leading" constant="50" id="XSk-ay-Jqz"/>
+                                    <constraint firstAttribute="trailing" secondItem="2RY-XY-g3j" secondAttribute="trailing" constant="124" id="f1f-YY-3Z4"/>
+                                    <constraint firstItem="no1-GD-NmK" firstAttribute="leading" secondItem="nkI-z8-gPi" secondAttribute="leading" constant="50" id="iBw-Oj-2Ka"/>
+                                    <constraint firstAttribute="trailing" secondItem="gQs-IQ-EDb" secondAttribute="trailing" constant="15" id="l1i-HV-5Mh"/>
+                                    <constraint firstItem="gQs-IQ-EDb" firstAttribute="leading" secondItem="nkI-z8-gPi" secondAttribute="leading" constant="50" id="lmD-dt-Y3d"/>
+                                    <constraint firstItem="2RY-XY-g3j" firstAttribute="leading" secondItem="nkI-z8-gPi" secondAttribute="leading" constant="50" id="ojz-76-Lzr"/>
+                                    <constraint firstAttribute="bottom" secondItem="RFa-u8-MvF" secondAttribute="bottom" constant="31" id="rsk-fS-2HN"/>
+                                    <constraint firstItem="fNU-gx-N8E" firstAttribute="leading" secondItem="nkI-z8-gPi" secondAttribute="leading" constant="50" id="zEc-R5-ZS6"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bPz-ft-zGG"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nkI-z8-gPi" firstAttribute="bottom" secondItem="bPz-ft-zGG" secondAttribute="bottom" id="4t4-7Z-rmo"/>
+                            <constraint firstItem="nkI-z8-gPi" firstAttribute="top" secondItem="bPz-ft-zGG" secondAttribute="top" id="qU3-gr-kea"/>
+                            <constraint firstItem="nkI-z8-gPi" firstAttribute="leading" secondItem="bPz-ft-zGG" secondAttribute="leading" id="sBu-P2-20k"/>
+                            <constraint firstItem="nkI-z8-gPi" firstAttribute="trailing" secondItem="bPz-ft-zGG" secondAttribute="trailing" id="z5a-qY-Y8R"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ws-FJ-WbH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2962" y="136"/>
+            <point key="canvasLocation" x="2960.8695652173915" y="135.9375"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="oGS-bA-Wz7">
@@ -115,6 +189,18 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
