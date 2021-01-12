@@ -21,7 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
-    [self.tableView customAnimation:CustomAnimationTypeLayDown];
+   /// [self.tableView customAnimation:CustomAnimationTypeLayDown];
 }
 
 #pragma mark - tableview delegate & datasource
