@@ -15,6 +15,10 @@
 		651ADCE725A6B83000469FBE /* NSArray+ErrorHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 651ADCE625A6B83000469FBE /* NSArray+ErrorHandle.m */; };
 		651ADCED25A6B89600469FBE /* NSObject+SwizzleMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 651ADCEC25A6B89600469FBE /* NSObject+SwizzleMethod.m */; };
 		651ADCF325A6B8F700469FBE /* NSMutableArray+ErrorHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 651ADCF225A6B8F700469FBE /* NSMutableArray+ErrorHandle.m */; };
+		6543B44B25C3E0300005C60B /* MTProgressBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6543B44A25C3E0300005C60B /* MTProgressBaseView.m */; };
+		6543B45425C3E0430005C60B /* MTBarProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6543B45325C3E0430005C60B /* MTBarProgressView.m */; };
+		6543B45A25C3E0600005C60B /* MTCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6543B45925C3E0600005C60B /* MTCircleProgressView.m */; };
+		6543B46325C3E8430005C60B /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6543B46225C3E8430005C60B /* ProgressViewController.m */; };
 		6565E59F258897BF00B73C6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E59E258897BF00B73C6E /* AppDelegate.m */; };
 		6565E5A2258897BF00B73C6E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E5A1258897BF00B73C6E /* SceneDelegate.m */; };
 		6565E5A5258897BF00B73C6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6565E5A4258897BF00B73C6E /* ViewController.m */; };
@@ -85,6 +89,14 @@
 		651ADCEC25A6B89600469FBE /* NSObject+SwizzleMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SwizzleMethod.m"; sourceTree = "<group>"; };
 		651ADCF125A6B8F700469FBE /* NSMutableArray+ErrorHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+ErrorHandle.h"; sourceTree = "<group>"; };
 		651ADCF225A6B8F700469FBE /* NSMutableArray+ErrorHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+ErrorHandle.m"; sourceTree = "<group>"; };
+		6543B44925C3E0300005C60B /* MTProgressBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTProgressBaseView.h; sourceTree = "<group>"; };
+		6543B44A25C3E0300005C60B /* MTProgressBaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTProgressBaseView.m; sourceTree = "<group>"; };
+		6543B45225C3E0430005C60B /* MTBarProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTBarProgressView.h; sourceTree = "<group>"; };
+		6543B45325C3E0430005C60B /* MTBarProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTBarProgressView.m; sourceTree = "<group>"; };
+		6543B45825C3E0600005C60B /* MTCircleProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTCircleProgressView.h; sourceTree = "<group>"; };
+		6543B45925C3E0600005C60B /* MTCircleProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTCircleProgressView.m; sourceTree = "<group>"; };
+		6543B46125C3E8430005C60B /* ProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
+		6543B46225C3E8430005C60B /* ProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
 		6565E59A258897BE00B73C6E /* iOSDevLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDevLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6565E59D258897BF00B73C6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6565E59E258897BF00B73C6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -192,6 +204,19 @@
 			path = "数组越界";
 			sourceTree = "<group>";
 		};
+		6543B44725C3DF7F0005C60B /* 进度条 */ = {
+			isa = PBXGroup;
+			children = (
+				6543B44925C3E0300005C60B /* MTProgressBaseView.h */,
+				6543B44A25C3E0300005C60B /* MTProgressBaseView.m */,
+				6543B45225C3E0430005C60B /* MTBarProgressView.h */,
+				6543B45325C3E0430005C60B /* MTBarProgressView.m */,
+				6543B45825C3E0600005C60B /* MTCircleProgressView.h */,
+				6543B45925C3E0600005C60B /* MTCircleProgressView.m */,
+			);
+			path = "进度条";
+			sourceTree = "<group>";
+		};
 		6565E591258897BE00B73C6E = {
 			isa = PBXGroup;
 			children = (
@@ -216,6 +241,7 @@
 		6565E59C258897BE00B73C6E /* iOSDevLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				6543B44725C3DF7F0005C60B /* 进度条 */,
 				656811CE25AD98CE0050D14A /* IBDesignable */,
 				656BD4A125ABE7E500A9B6AE /* iOSDevLibrary.entitlements */,
 				65C0DAB725A6F54700FE6908 /* XibScrolllview */,
@@ -247,6 +273,8 @@
 				651960A12589A03800AB2E77 /* BaseViewController.m */,
 				651960A62589A08100AB2E77 /* FuckViewController.h */,
 				651960A72589A08100AB2E77 /* FuckViewController.m */,
+				6543B46125C3E8430005C60B /* ProgressViewController.h */,
+				6543B46225C3E8430005C60B /* ProgressViewController.m */,
 			);
 			path = iOSDevLibrary;
 			sourceTree = "<group>";
@@ -551,14 +579,18 @@
 				6565E5E52588981E00B73C6E /* MTAttributeTapLabel.m in Sources */,
 				656811D425AD99DA0050D14A /* UIButton+MTInspectable.m in Sources */,
 				6565E5A5258897BF00B73C6E /* ViewController.m in Sources */,
+				6543B45A25C3E0600005C60B /* MTCircleProgressView.m in Sources */,
+				6543B45425C3E0430005C60B /* MTBarProgressView.m in Sources */,
 				6565E59F258897BF00B73C6E /* AppDelegate.m in Sources */,
 				651960A82589A08100AB2E77 /* FuckViewController.m in Sources */,
 				6565E5F12588982A00B73C6E /* UIButton+MTEnlargeTouchArea.m in Sources */,
 				651ADCF325A6B8F700469FBE /* NSMutableArray+ErrorHandle.m in Sources */,
 				6565E60025889BE300B73C6E /* UITableView+CellAnimation.m in Sources */,
+				6543B46325C3E8430005C60B /* ProgressViewController.m in Sources */,
 				65FA0BC725A6E6FE00587187 /* MTChartBarView.m in Sources */,
 				656811DD25AD99F70050D14A /* UITextField+MTInspectable.m in Sources */,
 				6514642C259436BE00BFDA9A /* MTPopAction.m in Sources */,
+				6543B44B25C3E0300005C60B /* MTProgressBaseView.m in Sources */,
 				656811F525AD9A8F0050D14A /* MTInspectableView.m in Sources */,
 				6565E5DF2588981700B73C6E /* UIView+MTGradient.m in Sources */,
 				6565E60625889D4D00B73C6E /* MTTableViewCell.m in Sources */,

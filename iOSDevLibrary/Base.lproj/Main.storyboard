@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="n6n-Ao-RPc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VW0-ie-fwM">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -116,12 +116,12 @@
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQs-IQ-EDb">
                                         <rect key="frame" x="50" y="606" width="349" height="304.5"/>
-                                        <mutableString key="text">拖入一个UIView到UIScrollView中,作为内容显示视图，Autolayout将使用这个View的宽高来计算UIScrollView的滚动范围，并分别设置它相对于Content Layout guide的约束为0，具体步骤为：左键选中View，右键拖动它到Content Layout guide上，按住shift键，将上下左右都给选中，如果xcode默认了当前的相对数据，在右边将它手动改为0，操作如下图
+                                        <string key="text">拖入一个UIView到UIScrollView中,作为内容显示视图，Autolayout将使用这个View的宽高来计算UIScrollView的滚动范围，并分别设置它相对于Content Layout guide的约束为0，具体步骤为：左键选中View，右键拖动它到Content Layout guide上，按住shift键，将上下左右都给选中，如果xcode默认了当前的相对数据，在右边将它手动改为0，操作如下图
 
 作者：默默_David
 链接：https://www.jianshu.com/p/3161da83ee42
 来源：简书
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</mutableString>
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -166,6 +166,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ws-FJ-WbH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2960.8695652173915" y="135.9375"/>
+        </scene>
+        <!--Progress View Controller-->
+        <scene sceneID="DrG-SX-rEV">
+            <objects>
+                <viewController storyboardIdentifier="ProgressViewController" id="VW0-ie-fwM" customClass="ProgressViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="14f-fo-Mov">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ygp-Qq-Nbw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="POB-KI-k19" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3677" y="48"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="oGS-bA-Wz7">
